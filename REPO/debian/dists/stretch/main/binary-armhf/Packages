@@ -1,0 +1,142 @@
+Package: mongodb
+Version: 1:3.2.22-2
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 41
+Depends: mongodb-server (>= 1:2.4.1-2)
+Homepage: https://www.mongodb.org
+Priority: optional
+Section: database
+Filename: pool/main/m/mongodb/mongodb_3.2.22-2_armhf.deb
+Size: 16962
+SHA256: 50f94a48b385ece5a8868f79d483fe25b3532b899eaeee4755923538df39e21b
+SHA1: b5c5a2651590714b370c1cfc9a1cc908d0308ba8
+MD5sum: 7eb40731dc486fb75ed569a7b65d12fa
+Description: object/document-oriented database (metapackage)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features:
+ .
+    * Collection oriented storage - easy storage of object-style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This is a convenience metapackage that depends on all the mongodb parts:
+ the server, the clients and the development files (headers and library).
+
+Package: mongodb-clients
+Source: mongodb
+Version: 1:3.2.22-2
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 47254
+Depends: libboost-chrono1.62.0, libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgoogle-perftools4, libpcap0.8 (>= 0.9.8), libpcre3, libpcrecpp0v5 (>= 7.7), libsnappy1v5, libssl1.0.2 (>= 1.0.2d), libstdc++6 (>= 6), libstemmer0d (>= 0+svn527), libyaml-cpp0.5v5, zlib1g (>= 1:1.1.4)
+Recommends: mongo-tools
+Replaces: mongodb (<= 1:1.4.2-2)
+Homepage: https://www.mongodb.org
+Priority: optional
+Section: database
+Filename: pool/main/m/mongodb/mongodb-clients_3.2.22-2_armhf.deb
+Size: 17928526
+SHA256: 36d284d706d3a586eec6faddd1eae8983079125e975213327f19368fcc76a726
+SHA1: 18099a8b822a886638c09c88b6e42deeabe8cac2
+MD5sum: 0ed3d34c83794dfd296b42751aeab118
+Description: object/document-oriented database (client apps)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features:
+ .
+    * Collection oriented storage - easy storage of object-style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the standard administrative shell (mongo) and other
+ utilities for administration or analysis of performance of the server.
+
+Package: mongodb-clients-dbgsym
+Source: mongodb
+Version: 1:3.2.22-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 371176
+Depends: mongodb-clients (= 1:3.2.22-2)
+Homepage: https://www.mongodb.org
+Priority: extra
+Section: debug
+Filename: pool/main/m/mongodb/mongodb-clients-dbgsym_3.2.22-2_armhf.deb
+Size: 366162658
+SHA256: 6d2972b6369c63258dc2543d522e66f23c1da7d008bf48a8619b530bc8ebf17e
+SHA1: 79a5df8fb89154ec00a181d83f9a79d3056d0384
+MD5sum: c1d6e5747f79be5680b33c2372906127
+Description: Debug symbols for mongodb-clients
+Build-Ids: 07abbce97a253f79c5483d39a7e8f7efd45071a0 3bcfb590013d5244517e4eb623ab5ce7eda83e45 489ad3ea7ede3e7235782842145b1dbad36a1791
+
+Package: mongodb-server
+Source: mongodb
+Version: 1:3.2.22-2
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 27529
+Depends: mongodb-clients, adduser, lsb-base (>= 3.0-6), init-system-helpers (>= 1.18~), libboost-chrono1.62.0, libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgoogle-perftools4, libpcre3, libpcrecpp0v5 (>= 7.7), libsnappy1v5, libssl1.0.2 (>= 1.0.2d), libstdc++6 (>= 6), libstemmer0d (>= 0+svn527), libyaml-cpp0.5v5, zlib1g (>= 1:1.1.4)
+Replaces: mongodb (<= 1:1.4.2-2)
+Homepage: https://www.mongodb.org
+Priority: optional
+Section: database
+Filename: pool/main/m/mongodb/mongodb-server_3.2.22-2_armhf.deb
+Size: 10536682
+SHA256: 11be6bde8b6c2f98c21798e253d960bdfc2d0701c5d901af5c7a718c58cd6c47
+SHA1: 554d55e281204ac2a78c3d11ff8c27a24162fe74
+MD5sum: 6324450eba5f35412b5e03c58d6a2a09
+Description: object/document-oriented database (server package)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features:
+ .
+    * Collection oriented storage - easy storage of object-style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the server itself  (mongod) and the sharding
+ server/load-balancer (mongos).
+
+Package: mongodb-server-dbgsym
+Source: mongodb
+Version: 1:3.2.22-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 242763
+Depends: mongodb-server (= 1:3.2.22-2)
+Homepage: https://www.mongodb.org
+Priority: extra
+Section: debug
+Filename: pool/main/m/mongodb/mongodb-server-dbgsym_3.2.22-2_armhf.deb
+Size: 240638332
+SHA256: e6b8c96d063b97d802eeb9c1af9eb68146e8e62a3c686c579bd2b0d1af71c3b7
+SHA1: c523f3fb19d54e0d469136fa9919b0dbead6f730
+MD5sum: 1af1ad123d028bc299e84596cd7627fa
+Description: Debug symbols for mongodb-server
+Build-Ids: 0574d296180b25ac58cb02aba2a11106a6cb56c9 8fcf549908ee55dbc47de1487648e755cbf67d2f
+
