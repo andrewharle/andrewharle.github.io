@@ -1,0 +1,104 @@
+Package: mongodb
+Version: 1:3.2.22-1
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 41
+Depends: mongodb-server (>= 1:2.4.1-2)
+Homepage: https://www.mongodb.org
+Priority: optional
+Section: database
+Filename: pool/experimental/m/mongodb/mongodb_3.2.22-1_armhf.deb
+Size: 16952
+SHA256: b93efc994d269b1aef83c7687080547fdf5b02314ab8150be418c0b1ac3f22aa
+SHA1: 7ecf63f70cb3e26aaee8c45f726f4665a9ca02f6
+MD5sum: 99e35039d2cf37a570eb2d29d6151d34
+Description: object/document-oriented database (metapackage)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features:
+ .
+    * Collection oriented storage - easy storage of object-style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This is a convenience metapackage that depends on all the mongodb parts:
+ the server, the clients and the development files (headers and library).
+
+Package: mongodb-clients
+Source: mongodb
+Version: 1:3.2.22-1
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 47254
+Depends: libboost-chrono1.62.0, libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgoogle-perftools4, libpcap0.8 (>= 0.9.8), libpcre3, libpcrecpp0v5 (>= 7.7), libsnappy1v5, libssl1.0.2 (>= 1.0.2d), libstdc++6 (>= 6), libstemmer0d (>= 0+svn527), libyaml-cpp0.5v5, zlib1g (>= 1:1.1.4)
+Recommends: mongo-tools
+Replaces: mongodb (<= 1:1.4.2-2)
+Homepage: https://www.mongodb.org
+Priority: optional
+Section: database
+Filename: pool/experimental/m/mongodb/mongodb-clients_3.2.22-1_armhf.deb
+Size: 17928786
+SHA256: 87a0aac86f5f2905be2aa4ac9036f408025bb729bbfa911c6faac707bb06a8d8
+SHA1: 45aa7580f1857fd755ff7e1eca220097777aac02
+MD5sum: a4305be82eb962e1297ad6673c769e19
+Description: object/document-oriented database (client apps)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features:
+ .
+    * Collection oriented storage - easy storage of object-style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the standard administrative shell (mongo) and other
+ utilities for administration or analysis of performance of the server.
+
+Package: mongodb-server
+Source: mongodb
+Version: 1:3.2.22-1
+Architecture: armhf
+Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
+Installed-Size: 27529
+Depends: mongodb-clients, adduser, lsb-base (>= 3.0-6), init-system-helpers (>= 1.18~), libboost-chrono1.62.0, libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgoogle-perftools4, libpcre3, libpcrecpp0v5 (>= 7.7), libsnappy1v5, libssl1.0.2 (>= 1.0.2d), libstdc++6 (>= 6), libstemmer0d (>= 0+svn527), libyaml-cpp0.5v5, zlib1g (>= 1:1.1.4)
+Replaces: mongodb (<= 1:1.4.2-2)
+Homepage: https://www.mongodb.org
+Priority: optional
+Section: database
+Filename: pool/experimental/m/mongodb/mongodb-server_3.2.22-1_armhf.deb
+Size: 10537806
+SHA256: 6fe1335be78790bd2a35f2fa99fea0f73f54fca5de846d9de560020dd99fbd8a
+SHA1: 1a12dda38bd53c838029cdb95a881a29f043f622
+MD5sum: 958106432267fa4640b8345a0a6c8713
+Description: object/document-oriented database (server package)
+ MongoDB is a high-performance, open source, schema-free
+ document-oriented data store that's easy to deploy, manage
+ and use. It's network accessible, written in C++ and offers
+ the following features:
+ .
+    * Collection oriented storage - easy storage of object-style data
+    * Full index support, including on inner objects
+    * Query profiling
+    * Replication and fail-over support
+    * Efficient storage of binary data including large objects (e.g. videos)
+    * Auto-sharding for cloud-level scalability
+ .
+ High performance, scalability, and reasonable depth of
+ functionality are the goals for the project.
+ .
+ This package contains the server itself  (mongod) and the sharding
+ server/load-balancer (mongos).
+
