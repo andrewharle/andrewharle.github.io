@@ -5,5 +5,5 @@ SignWith: 489D82B530971E04
 
 Codename: dummy
 Components: misc
-Architectures: mips
+Architectures: *
 SignWith: 489D82B530971E04
