@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: dummy
+Date: Sat, 05 Jan 2019 14:50:00 UTC
+Architectures: mips
+Components: misc
+MD5Sum:
+ 0a2cd1cf1c383a625f1d3d2d1a10d366 613 misc/binary-mips/Packages
+ 9d8a6a4b856f820710e42482ea332b4d 431 misc/binary-mips/Packages.gz
+ afadf9872f027b1a82872ebab3a00d6f 35 misc/binary-mips/Release
+SHA1:
+ 7437d65b48747cc2a8bd2dd3d16a4d4c0b9983d3 613 misc/binary-mips/Packages
+ d11d7686274c491824479d17598be93917e202fb 431 misc/binary-mips/Packages.gz
+ e8bd20489bbd9396b053a878882b1cf7e84be4dc 35 misc/binary-mips/Release
+SHA256:
+ 8fb8835042a898a5670dea05a0760bfba7fa0f59273ac8b648a8ce47abf518dd 613 misc/binary-mips/Packages
+ 9efdd8e4903b6497a5c64bd5e2ffc121b6ee7ef0f8e4d30f06a28449999a232e 431 misc/binary-mips/Packages.gz
+ 0dafdc7f23c16fe8e8064749e8c66acb6f740dc5ec2b5a36afb828f43bcfc1df 35 misc/binary-mips/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/CGngUiJCP94MFF7SJ2CtTCXHgQFAlwwxBgACgkQSJ2CtTCX
+HgTYWg/+OkdIxKO6h+uw/tcMbGY7HMHYTF9HJG/FOiYs+O3VbP3cZzqzvthQqK8n
+oUWGZUQhGaSoG4f607cR5hc2Kbf1wIBxRyNfD0yZOfgiJTJ/RiTUTq64lmB1hyU1
+2UBPEUGqzWAmX/ctI5IfHDJC7IdMqTiWuJEQRAY9hRaXsoexazaJ0tNyhlDt4BbO
+ZSvB7Gs02kPika/VNQ7uWkGrrm8YV7pEI0FPZ/XR8WudWYaiCRzmfqJ+k17InZ4V
+q+iFyzMSsNE7lcyAqLa5UQp3lt0XBzYlvh4BH07qf8AFrnOgYL4pf4c8GiwTIvpj
+lIPrE6bhqCwf++UtZ9zqgvWRkFJYl13L6RRYGKC0mxg2lN0/MCulSVaykhJiQhMF
+Z+smm9EmzwcMeSwgQBJOzkdSzFnhAqbaJMRrtxpYasQfWlZ491SFKvwZziBWNrlI
+DmVt4Vo19e9RO7/A43Wrp1PeI3ZqpqjTk0rsT0NZkBDkolr3BnHQH3kC5ZmMaFFb
+EERACOEvUQeIhUGVpif2IbI+/Be5PRi19XA4NL8j++sm0992+j8Y6XQs7wy1yJrp
+3T9pySHtYpFcn5TPgggRDdMv/2zxZo/pUhjYe/lJpe6qm7iSGRsJrGUQyEN8FeCH
+agQLfNe/73NucrF9Ydq7M4qHsg0IwswBNnLeBO1bZBSmshI4gFo=
+=9hk0
+-----END PGP SIGNATURE-----
