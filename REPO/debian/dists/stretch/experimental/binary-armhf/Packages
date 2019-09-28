@@ -8,10 +8,10 @@ Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
 Filename: pool/experimental/m/mongodb/mongodb_3.2.22-1_armhf.deb
-Size: 16952
-SHA256: b93efc994d269b1aef83c7687080547fdf5b02314ab8150be418c0b1ac3f22aa
-SHA1: 7ecf63f70cb3e26aaee8c45f726f4665a9ca02f6
-MD5sum: 99e35039d2cf37a570eb2d29d6151d34
+Size: 17064
+SHA256: 9f7bf89f0ce6c9618a519c3dd3e933edaaf26184e0ed505148ec64490743ea96
+SHA1: 34f1d7e79114c602efee379d4656ac131c81b435
+MD5sum: d02813a85f496b1c6d74f68213e12a1a
 Description: object/document-oriented database (metapackage)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
@@ -44,10 +44,10 @@ Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
 Filename: pool/experimental/m/mongodb/mongodb-clients_3.2.22-1_armhf.deb
-Size: 17928786
-SHA256: 87a0aac86f5f2905be2aa4ac9036f408025bb729bbfa911c6faac707bb06a8d8
-SHA1: 45aa7580f1857fd755ff7e1eca220097777aac02
-MD5sum: a4305be82eb962e1297ad6673c769e19
+Size: 17931588
+SHA256: 86ea5e7ab2b4cefc57f25f557d96e4bb0f0193816239427bff3fe9a07653ac13
+SHA1: 016a39f4e9b71d1e378da997258703e9dddcd78e
+MD5sum: 118ebc2e5f2ae13136673e90bc0514cf
 Description: object/document-oriented database (client apps)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
@@ -79,10 +79,10 @@ Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
 Filename: pool/experimental/m/mongodb/mongodb-server_3.2.22-1_armhf.deb
-Size: 10537806
-SHA256: 6fe1335be78790bd2a35f2fa99fea0f73f54fca5de846d9de560020dd99fbd8a
-SHA1: 1a12dda38bd53c838029cdb95a881a29f043f622
-MD5sum: 958106432267fa4640b8345a0a6c8713
+Size: 10538442
+SHA256: 23d77db41837cce404ff80ab8457a2f1d68611ddfa8547d2546e36f2fd7fcb46
+SHA1: b78dab676e35b80249ba4ad41ece1a12eea24df3
+MD5sum: 166880482d99526871c00fd7e474bca5
 Description: object/document-oriented database (server package)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
