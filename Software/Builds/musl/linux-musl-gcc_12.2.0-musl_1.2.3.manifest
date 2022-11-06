@@ -1,0 +1,13 @@
+Built using github actions from tag musl/v1.2.3-0
+a42d1ed2f9bb302b72f274e999385054898293f0
+
+# ----- Package Versions ----- #
+binutils_ver=2.39
+gcc_ver=12.2.0
+gmp_ver=6.2.1
+isl_ver=0.24
+linux_ver=4.19.264
+mpc_ver=1.2.1
+mpfr_ver=4.1.0
+musl_ver=1.2.3
+pkgconf_ver=1.9.3

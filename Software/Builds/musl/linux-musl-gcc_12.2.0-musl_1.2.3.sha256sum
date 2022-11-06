@@ -1,0 +1,4 @@
+71b22dd8d50599bc575e1497c630c855fa5214d2bb2714147dcaccaa097cddde  i686-linux-musl-gcc_12.2.0-musl_1.2.3.tar.xz
+a9ea7a64b3a298cdf1537e596647a7e86669a2331cd6bd21eec892a56bf99b92  arm-linux-musleabihf-gcc_12.2.0-musl_1.2.3.tar.xz
+f9eac746bf90d9ac3860355e87ec5c187e4f9750c1e3568d01f32fe994ec0bbf  aarch64-linux-musl-gcc_12.2.0-musl_1.2.3.tar.xz
+874a72b7939867faabcaad69f8fa6bbd60bca38e191c6624c5ec0ebc42f9b2f0  x86_64-linux-musl-gcc_12.2.0-musl_1.2.3.tar.xz
