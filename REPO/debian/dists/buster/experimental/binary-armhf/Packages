@@ -1,17 +1,17 @@
 Package: mongodb
-Version: 1:4.0.17~rc0-2
+Version: 1:4.0.28-1
 Architecture: armhf
 Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
-Installed-Size: 42
+Installed-Size: 43
 Depends: mongodb-server (>= 1:2.4.1-2)
 Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
-Filename: pool/experimental/m/mongodb/mongodb_4.0.17~rc0-2_armhf.deb
-Size: 18888
-SHA256: 646c3f07875527d44b0ffd60084f950bb26d8a172315e17afd2fd2597976afd7
-SHA1: cc9a39053aa7091dc98cc3f5d7f6620d4eb84fae
-MD5sum: 361e91605ad87b9cd09cbe8e7264dc6f
+Filename: pool/experimental/m/mongodb/mongodb_4.0.28-1_armhf.deb
+Size: 19092
+SHA256: c829c460a1e3a0ea67df04362f519a26cc10aff0202d3cec37aaf1abf742a204
+SHA1: a94594fe743b60643a1a92da7072beaa58df5fdd
+MD5sum: 6d56558283bf5db409287826402d5424
 Description: object/document-oriented database (metapackage)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
@@ -33,21 +33,21 @@ Description: object/document-oriented database (metapackage)
 
 Package: mongodb-clients
 Source: mongodb
-Version: 1:4.0.17~rc0-2
+Version: 1:4.0.28-1
 Architecture: armhf
 Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
-Installed-Size: 23118
+Installed-Size: 23011
 Depends: libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-program-options1.67.0, libboost-system1.67.0, libc6 (>= 2.28), libgcc1 (>= 1:3.5), libgoogle-perftools4, libpcre3, libpcrecpp0v5 (>= 7.7), libsnappy1v5, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libyaml-cpp0.6 (>= 0.6.2), zlib1g (>= 1:1.2.0)
 Recommends: mongo-tools
 Replaces: mongodb (<= 1:1.4.2-2)
 Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
-Filename: pool/experimental/m/mongodb/mongodb-clients_4.0.17~rc0-2_armhf.deb
-Size: 7958992
-SHA256: 864845123c8133e2b3b7caa8ea9e86dccfe1d34c8ae3ef0090f6d92474757e77
-SHA1: 6e4b1b312e288591977c2160c477863dd164d45d
-MD5sum: d330480545e861f36cde508da72a0ffe
+Filename: pool/experimental/m/mongodb/mongodb-clients_4.0.28-1_armhf.deb
+Size: 8019920
+SHA256: b83c3a77ab6d246f3a8017683adaf86117ce4008f9c0200613f29c071fdcbfd0
+SHA1: 57d032e9ade1a09d7bc5611da5da93482f508476
+MD5sum: 96687a01b49736aaa39875deae020942
 Description: object/document-oriented database (client apps)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
@@ -69,19 +69,19 @@ Description: object/document-oriented database (client apps)
 
 Package: mongodb-server
 Source: mongodb
-Version: 1:4.0.17~rc0-2
+Version: 1:4.0.28-1
 Architecture: armhf
 Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
-Installed-Size: 73
-Depends: mongodb-clients, mongodb-server-core (>= 1:4.0.17~rc0-2), mongodb-server-core (<< 1:4.0.17~rc0-2.1~), adduser, lsb-base (>= 3.0-6)
+Installed-Size: 74
+Depends: mongodb-clients, mongodb-server-core (>= 1:4.0.28-1), mongodb-server-core (<< 1:4.0.28-1.1~), adduser, lsb-base (>= 3.0-6)
 Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
-Filename: pool/experimental/m/mongodb/mongodb-server_4.0.17~rc0-2_armhf.deb
-Size: 24484
-SHA256: 2f161cfd1b42cc77b2812a40bf2d6890caa7e3dd4ba285ec9a6af889f45b1cea
-SHA1: b5c752678617373b0610801e0e51d984d8e0256d
-MD5sum: 441edbf3659b98ff7babfb8d3e3e4699
+Filename: pool/experimental/m/mongodb/mongodb-server_4.0.28-1_armhf.deb
+Size: 24696
+SHA256: ef13b2892709f8242d2a7e24dee50a3d2adb60894acac946ff2c8df2964a6b82
+SHA1: 5c408e0a52916ddde8de556e591ad80e2b8685a8
+MD5sum: 7b5353b095373b5550dd2f99188100c1
 Description: object/document-oriented database (managed server package)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
@@ -102,21 +102,21 @@ Description: object/document-oriented database (managed server package)
 
 Package: mongodb-server-core
 Source: mongodb
-Version: 1:4.0.17~rc0-2
+Version: 1:4.0.28-1
 Architecture: armhf
 Maintainer: Andrew Harle <46223597+andrewharle@users.noreply.github.com>
-Installed-Size: 54920
+Installed-Size: 55565
 Depends: libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-program-options1.67.0, libboost-system1.67.0, libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libgoogle-perftools4, libpcre3, libpcrecpp0v5 (>= 7.7), libsnappy1v5, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libstemmer0d (>= 0+svn527), libyaml-cpp0.6 (>= 0.6.2), zlib1g (>= 1:1.2.0)
 Breaks: mongodb-server (<< 1:3.4.14-1~)
 Replaces: mongodb-server (<< 1:3.4.14-1~)
 Homepage: https://www.mongodb.org
 Priority: optional
 Section: database
-Filename: pool/experimental/m/mongodb/mongodb-server-core_4.0.17~rc0-2_armhf.deb
-Size: 19450160
-SHA256: 9d9c7935bb4e8ac37a9e40a35cca37b75983ed2822b76095c29b6fb9c8390cdd
-SHA1: a377b78e62f9dd83bb86f034b3243c29e30795bd
-MD5sum: 994dd1071b56cbf5a6d28912bbf7de22
+Filename: pool/experimental/m/mongodb/mongodb-server-core_4.0.28-1_armhf.deb
+Size: 19940856
+SHA256: b073618192b92166c4049d96b04f94bf85dc9bb290b1e894d568b51a96ab6d22
+SHA1: b43e5a7d5670201449f9e091d492c50459d26a24
+MD5sum: 643334343b7c2159ac0855a1569f3cee
 Description: object/document-oriented database (server binaries package)
  MongoDB is a high-performance, open source, schema-free
  document-oriented data store that's easy to deploy, manage
