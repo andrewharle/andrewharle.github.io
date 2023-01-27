@@ -5,7 +5,7 @@ SignWith: 489D82B530971E04
 
 Codename: buster
 Components: experimental
-Architectures: armhf
+Architectures: armhf amd64 arm64
 SignWith: 489D82B530971E04
 
 Codename: dummy
